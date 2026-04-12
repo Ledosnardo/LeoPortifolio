@@ -1,0 +1,33 @@
+{
+  "home": "Início",
+  "expertise": "Especialidade",
+  "experience" : "Experiência",
+  "work": "Projetos",
+  "contact": "Contato",
+  "subTitle": "ENGENHEIRO DE SOFTWARE, DESENVOLVEDOR FULL STACK",
+
+  "expertiseTag": "// Especialidade",
+  "expertiseSub": "Desenvolvedor Full Stack · 22 anos · Brasilata",
+
+  "card1Title": "Frontend Dev",
+  "card1Sub": "React, Angular",
+  "card1Desc": "Iniciei minha trajetória no Front End. Tenho experiência sólida com React, Angular e interfaces modernas com foco em UI/UX.",
+
+  "card2Title": "Mobile Dev",
+  "card2Sub": "React Native",
+  "card2Desc": "Desenvolvimento de apps híbridos para Android e iOS com React Native, entregando experiências nativas multiplataforma.",
+
+  "card3Title": "Backend Dev",
+  "card3Sub": "C#, TOTVS ERP",
+  "card3Desc": "Atuo na Brasilata desenvolvendo um app MES e integrações no ERP TOTVS. Aprimorando meu back end para me tornar um dev completo.",
+
+  "card4Title": "Banco de Dados",
+  "card4Sub": "SQL & Dados",
+  "card4Desc": "Conhecimentos sólidos em SQL e modelagem de banco de dados, aplicados em sistemas industriais e de gestão.",
+
+  "workDesc": "Responsável pelo desenvolvimento FullStack e manutenção de um aplicativo MES (PC Factory) e pela integração com o ERP TOTVS. Atuação em diversas frentes da área de TI, incluindo a manutenção de sistemas internos, implementação de novas soluções e otimização de processos de negócio.",
+  "featuredProject": "Projeto em Destaque",
+  "viewProject": "Ver Projeto",
+  "workTitle": "Trabalho",
+  "workTitle2": "Atual"
+}

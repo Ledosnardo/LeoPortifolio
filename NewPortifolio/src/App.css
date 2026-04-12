@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* APP BASE */
+.app {
+  position: relative;
+  min-height: 100vh;
+  color: white;
+  font-family: Arial, sans-serif;
+  overflow-y: auto;
+}
+
+main {
+  position: relative;
+  z-index: 10;
+}
