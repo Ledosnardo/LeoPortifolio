@@ -30,6 +30,7 @@ export default function Header(){
             <a href="#">// {t("home")}</a>
             <a href="#expertise">// {t("expertise")}</a>
             <a href="#work">// {t("experience")}</a>
+            <a href="#projects">// {t("projects")}</a>
             <a href="#contact">// {t("contact")}</a>
           </nav>
 

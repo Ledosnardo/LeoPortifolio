@@ -2,7 +2,7 @@
   "home": "Início",
   "expertise": "Especialidade",
   "experience" : "Experiência",
-  "work": "Projetos",
+  "projects": "Projetos",
   "contact": "Contato",
   "subTitle": "ENGENHEIRO DE SOFTWARE, DESENVOLVEDOR FULL STACK",
 
@@ -29,5 +29,19 @@
   "featuredProject": "Projeto em Destaque",
   "viewProject": "Ver Projeto",
   "workTitle": "Trabalho",
-  "workTitle2": "Atual"
+  "workTitle2": "Atual",
+
+  "projectsTitle": "Meus Projetos",
+  "proj1Title": "Building Simulator 2",
+  "proj1Tag": "Projeto Universitário · UNIFOA",
+  "proj2Title": "Críticos Quase de Verdade",
+  "proj2Tag": "React TS · Críticas de Filmes",
+  "proj3Title": "Histórico de Reimpressão",
+  "proj3Tag": "C# · Angular · MySQL",
+  "proj4Title": "Dashboard de Produção",
+  "proj4Tag": "Angular · Gráficos",
+
+  "contactTitle": "Vamos Conversar?",
+  "contactThanks": "Obrigado por visitar meu portfólio! Se quiser trabalhar comigo ou apenas trocar uma ideia, fique à vontade para entrar em contato.",
+  "contactFooter": "© 2025 Leonardo Atanasio · Feito com React"
 }

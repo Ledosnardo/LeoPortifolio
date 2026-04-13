@@ -2,7 +2,7 @@
   "home": "Home",
   "expertise": "Expertise",
   "experience" : "Experience",
-  "work": "Work",
+  "projects": "Projects",
   "contact": "Contact",
   "subTitle": "SOFTWARE ENGINEER, FULL STACK DEVELOPER.",
 
@@ -29,5 +29,19 @@
   "featuredProject": "Featured Project",
   "viewProject": "View Project",
   "workTitle": "My",
-  "workTitle2": "Work"
+  "workTitle2": "Work",
+
+  "projectsTitle": "My Projects",
+  "proj1Title": "Building Simulator 2",
+  "proj1Tag": "University Project · UNIFOA",
+  "proj2Title": "Críticos Quase de Verdade",
+  "proj2Tag": "React TS · Movie Reviews",
+  "proj3Title": "Label Reprint History",
+  "proj3Tag": "C# · Angular · MySQL",
+  "proj4Title": "Production Dashboard",
+  "proj4Tag": "Angular · Charts",
+
+  "contactTitle": "Let's Talk?",
+  "contactThanks": "Thank you for visiting my portfolio! If you want to work together or just say hi, feel free to reach out.",
+  "contactFooter": "© 2025 Leonardo Atanasio · Built with React"
 }
