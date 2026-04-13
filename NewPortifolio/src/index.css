@@ -1,9 +1,49 @@
-/* RESET */
+:root {
+  --primary: #38bdf8;
+  --text-soft: rgba(255,255,255,0.7);
+  --text-muted: rgba(255,255,255,0.6);
+  --bg-glass: rgba(255,255,255,0.05);
+  --border-glass: rgba(255,255,255,0.1);
+  --dark: #020617;
+
+  --header-padding-y: clamp(12px, 2vw, 30px);
+  --header-padding-x: clamp(16px, 6vw, 60px);
+
+  --logo-size: clamp(20px, 3vw, 38px);
+  --nav-font: clamp(12px, 1.2vw, 14px);
+  --btn-font: clamp(9px, 1vw, 10px);
+
+  --bg-dark: #020617;
+  --bg-mid: #0f172a;
+
+  --cube-front: #1e2d45;
+  --cube-side: #152035;
+  --cube-top: #253552;
+  --cube-bottom: #0f1a2e;
+
+  --glow-orange-strong: rgba(251,146,60,0.9);
+  --glow-orange-mid: rgba(249,115,22,0.6);
+  --glow-orange-soft: rgba(249,115,22,0.3);
+
+  --glow-blue-strong: rgba(56,189,248,0.9);
+  --glow-blue-mid: rgba(14,165,233,0.6);
+  --glow-blue-soft: rgba(14,165,233,0.3);
+
+  --cube-size: clamp(180px, 22vw, 350px);
+  --cube-half: calc(var(--cube-size) / 2);
+
+  --ball-size: clamp(80px, 10vw, 160px);
+
+  --cylinder-width: clamp(60px, 6vw, 100px);
+  --cylinder-height: clamp(180px, 25vw, 300px);
+}
+
 body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
 }
+
 *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
@@ -21,24 +61,20 @@ html, body {
   min-height: 100vh;
 }
 
-/* largura da scrollbar */
 ::-webkit-scrollbar {
   width: 10px;
 }
 
-/* fundo da barra */
 ::-webkit-scrollbar-track {
   background: #050d1a;
 }
 
-/* "thumb" (parte que se move) */
 ::-webkit-scrollbar-thumb {
   background: #38bdf8;
   border-radius: 10px;
   border: 2px solid #050d1a;
 }
 
-/* hover no thumb */
 ::-webkit-scrollbar-thumb:hover {
   background: #0ea5e9;
 }

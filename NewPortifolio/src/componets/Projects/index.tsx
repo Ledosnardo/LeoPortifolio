@@ -1,13 +1,13 @@
 import { useTranslation } from 'react-i18next';
-import '../styles/projects.css';
+import './projects.css';
 
-import criticosImg from '../assets/criticos.png';
-import brasilata1Img from '../assets/brasilata1.jpg';
-import brasilata2Img from '../assets/brasilata2.jpg';
-import arquiteturaImg from '../assets/arquitetura.png';
+import criticosImg from '../../assets/criticos.png';
+import brasilata1Img from '../../assets/brasilata1.jpg';
+import brasilata2Img from '../../assets/brasilata2.jpg';
+import arquiteturaImg from '../../assets/arquitetura.png';
 
-import profileImg from '../assets/profile.jpg';
-import profileImg2 from '../assets/profile2.png';
+import profileImg from '../../assets/profile.jpg';
+import profileImg2 from '../../assets/profile2.png';
 
 export default function Projects() {
   const { t } = useTranslation();

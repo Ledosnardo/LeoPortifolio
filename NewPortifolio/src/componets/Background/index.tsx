@@ -1,4 +1,4 @@
-import '../styles/background.css'
+import './background.css'
 
 export default function Background(){
     return(

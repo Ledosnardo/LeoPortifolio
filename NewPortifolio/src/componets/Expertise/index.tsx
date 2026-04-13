@@ -2,7 +2,7 @@ import { FaReact } from 'react-icons/fa';
 import { MdOutlinePhoneAndroid } from 'react-icons/md';
 import { TbBrandCSharp } from 'react-icons/tb';
 import { SiMysql } from 'react-icons/si';
-import '../styles/expertise.css';
+import './expertise.css';
 import { useTranslation } from 'react-i18next';
 
 

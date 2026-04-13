@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
-import brasilataImg from '../assets/brasilata.png';
-import '../styles/work.css';
+import brasilataImg from '../../assets/brasilata.png';
+import './work.css';
 
 export default function Work() {
   const { t } = useTranslation();

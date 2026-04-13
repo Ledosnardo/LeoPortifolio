@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import '../styles/header.css'
+import './header.css'
 import { useTranslation } from 'react-i18next';
 
 export default function Header(){

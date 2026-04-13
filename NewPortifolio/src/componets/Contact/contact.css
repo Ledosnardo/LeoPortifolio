@@ -5,7 +5,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 80px 60px;
+  padding: clamp(40px, 8vw, 80px) clamp(20px, 6vw, 60px);
   box-sizing: border-box;
 }
 
@@ -13,31 +13,32 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 32px;
+  gap: clamp(20px, 5vw, 32px);
   max-width: 600px;
+  width: 100%;
   text-align: center;
 }
 
 .contact-tag {
-  font-size: 13px;
-  letter-spacing: 4px;
+  font-size: clamp(10px, 2vw, 13px);
+  letter-spacing: clamp(2px, 1vw, 4px);
   color: #38bdf8;
   font-family: 'Courier New', monospace;
   opacity: 0.7;
 }
 
 .contact-title {
-  font-size: 56px;
+  font-size: clamp(28px, 6vw, 56px);
   font-weight: 900;
   color: white;
   margin: 0;
-  letter-spacing: 2px;
+  letter-spacing: clamp(1px, 0.5vw, 2px);
 }
 
 .contact-thanks {
-  font-size: 16px;
+  font-size: clamp(13px, 2.5vw, 16px);
   color: rgba(255,255,255,0.5);
-  line-height: 1.8;
+  line-height: 1.7;
   margin: 0;
   max-width: 480px;
 }
@@ -45,15 +46,15 @@
 .contact-links {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: clamp(10px, 3vw, 16px);
   width: 100%;
 }
 
 .contact-link {
   display: flex;
   align-items: center;
-  gap: 20px;
-  padding: 20px 28px;
+  gap: clamp(10px, 3vw, 20px);
+  padding: clamp(14px, 3vw, 20px) clamp(16px, 4vw, 28px);
   border-radius: 14px;
   border: 1px solid rgba(255,255,255,0.07);
   background: rgba(255,255,255,0.03);
@@ -70,6 +71,7 @@
 .contact-link-icon {
   color: #38bdf8;
   flex-shrink: 0;
+  font-size: clamp(16px, 4vw, 20px);
   animation: glowIcon 5s ease-in-out infinite;
 }
 
@@ -84,23 +86,39 @@
 }
 
 .contact-link-label {
-  font-size: 11px;
+  font-size: clamp(9px, 2vw, 11px);
   color: #38bdf8;
-  letter-spacing: 3px;
+  letter-spacing: clamp(1px, 0.5vw, 3px);
   text-transform: uppercase;
   opacity: 0.7;
 }
 
 .contact-link-value {
-  font-size: 15px;
+  font-size: clamp(13px, 2.5vw, 15px);
   color: white;
   font-weight: 600;
 }
 
 .contact-footer {
-  font-size: 10px;
+  font-size: clamp(8px, 2vw, 10px);
   color: rgba(255,255,255,0.2);
-  letter-spacing: 2px;
+  letter-spacing: clamp(1px, 0.5vw, 2px);
   text-transform: uppercase;
   margin-top: 20px;
+}
+
+@media (max-width: 400px) {
+  .contact {
+    min-height: auto;
+    padding: 40px 20px;
+  }
+
+  .contact-link {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .contact-link-text {
+    text-align: left;
+  }
 }

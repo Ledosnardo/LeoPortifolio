@@ -3,8 +3,8 @@ import { FaGithub, FaReact, FaAngular } from "react-icons/fa";
 import { MdOutlinePhoneAndroid } from "react-icons/md";
 import { SiMysql } from "react-icons/si";
 import { TbBrandCSharp } from "react-icons/tb";
-import '../styles/home.css';
-import Background from "./Background";
+import './home.css';
+import Background from "../Background";
 
 export default function Home(){
     const { t } = useTranslation();

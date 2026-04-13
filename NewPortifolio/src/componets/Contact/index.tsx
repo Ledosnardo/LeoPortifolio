@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
-import '../styles/contact.css';
+import './contact.css';
 
 const links = [
   {
