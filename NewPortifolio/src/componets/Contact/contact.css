@@ -122,3 +122,24 @@
     text-align: left;
   }
 }
+
+@media (max-width: 768px) {
+
+  .contact * {
+    animation: none !important;
+    transition: none !important;
+  }
+
+  .contact-link-icon {
+    opacity: 1 !important;
+    filter: none !important;
+    color: #38bdf8 !important;
+  }
+
+  .contact-link:hover {
+    border-color: rgba(255,255,255,0.07) !important;
+    background: rgba(255,255,255,0.03) !important;
+    transform: none !important;
+  }
+
+}

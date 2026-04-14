@@ -114,6 +114,21 @@
   }
 }
 
+@media (max-width: 768px) {
+
+  .expertise-card {
+    animation: none;
+  }
+
+  .expertise-card-icon {
+    animation: none;
+    opacity: 1;
+    filter: none;
+    color: #38bdf8; /* cor fixa */
+  }
+
+}
+
 @media (max-width: 480px) {
   .expertise {
     align-items: stretch;

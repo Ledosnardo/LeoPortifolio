@@ -193,6 +193,15 @@
   .scene {
     transform: rotateX(15deg);
   }
+
+  .cylinder {
+    display: none;
+  }
+
+  .cube,
+  .cylinder {
+    animation: paused !important;
+  }
 }
 
 @media (max-width: 480px) {
@@ -212,7 +221,6 @@
     top: 10%;
   }
 
-  /* 🔥 PAUSAR ANIMAÇÕES */
   .cube,
   .cylinder {
     animation: paused !important;
