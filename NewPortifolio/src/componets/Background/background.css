@@ -20,7 +20,7 @@
 .bg-3d::after {
   content: "";
   position: absolute;
-  filter: blur(80px);
+  filter: blur(20px);
 }
 
 .bg-3d::before {
@@ -81,7 +81,7 @@
   transform: translate(-50%, -50%);
 
   background: radial-gradient(circle, rgba(99,102,241,0.25), transparent 70%);
-  filter: blur(80px);
+  filter: blur(20px);
 
   z-index: -1;
   opacity: 0;
@@ -188,6 +188,7 @@
   backface-visibility: hidden;
 }
 
+
 @media (max-width: 768px) {
   .scene {
     transform: rotateX(15deg);
@@ -198,9 +199,9 @@
   .scene {
     transform: rotateX(10deg);
   }
-  
+
   .cylinder {
-    display: none; /* opcional: remove tudo */
+    display: none;
   }
 
   .cube.one {
@@ -209,6 +210,12 @@
 
   .cube.two {
     top: 10%;
+  }
+
+  /* 🔥 PAUSAR ANIMAÇÕES */
+  .cube,
+  .cylinder {
+    animation: paused !important;
   }
 }
 

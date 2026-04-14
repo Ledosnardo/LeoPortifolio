@@ -1,6 +1,9 @@
 import './background.css'
 
 export default function Background(){
+    const faces = 12;
+    const angle = 360 / faces;    
+
     return(
         <div className="bg-3d">
             <div className="scene">
@@ -26,13 +29,13 @@ export default function Background(){
             </div>
             <div className="cylinder">
                 <div className="cylinder">
-                    {Array.from({ length: 32 }).map((_, i) => (
+                    {Array.from({ length: faces }).map((_, i) => (
                         <div
-                        key={i}
-                        className="cylinder-face"
-                        style={{
-                            transform: `rotateY(${i * 11.25}deg) translateZ(180px)`
-                        }}
+                            key={i}
+                            className="cylinder-face"
+                            style={{
+                            transform: `rotateY(${i * angle}deg) translateZ(180px)`
+                            }}
                         />
                     ))}
                 </div>
